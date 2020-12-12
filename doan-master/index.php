@@ -19,7 +19,10 @@
                     <div class="card-header" style="text-align: center; background-color: black;color: white"><b>login</b></div>
                     <div class="card-body">
                          <form class="form-horizontal" method="post" action="index.php">
-						
+						          <label>https://github.com/lings123/chuyennganh.git <br>
+                                    Tk quản lý : ling123 <br>
+                                    password : Giale123456789
+                                  </label>
                                      <div class="form-group">
                                         <label for="username" class="cols-sm-2 control-label">Username/Email:</label>
                                         <div class="cols-sm-10">
