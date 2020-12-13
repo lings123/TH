@@ -1,4 +1,4 @@
-<?php include "lib\header.php" ?>
+<?php include "lib/header.php" ?>
       <div style="margin-left: 15%">
         <article id="box">
           <form action="profile.php" method="post">

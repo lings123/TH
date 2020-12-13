@@ -1,4 +1,4 @@
-<?php include "lib\header.php" ?>
+<?php include "lib/header.php" ?>
 	<div style="margin-left: 20%">
 		<article id="box">
             <table class="w3-table-all w3-hoverable">
