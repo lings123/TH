@@ -18,7 +18,7 @@
                               <th>Thao tác</th>
                         </tr>
                         <?php 
-                        $sql="SELECT * FROM import join users on users.id=user_id";
+                        $sql="SELECT * FROM import ";
                         $query = $conn->query($sql);
                         $dis=$query->fetchAll();
                         foreach ($dis as $key => $value) {

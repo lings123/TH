@@ -26,11 +26,11 @@
 							$query1 = "SELECT * FROM import";
 							$query2 = "SELECT * FROM export";
 						}
-						if($kt!=''&& $bd=='' && $tk==''){
+						if($kt=='' && $bd=='' && $tk!=''){
 							$query1 = "SELECT * FROM import  WHERE user_id like '%$tk%' or id_im like '%$tk%' or user_id like '%$tk%' or distributor_name like '%$tk%'";
 					 		$query2="SELECT * FROM export WHERE user_id like '%$tk%' or id_ex like '%$tk%' or retailer_id like '%$tk%' or retailer_name like '%$tk%'";
 						}
-						if($kt!=''&& $bd!='' && $tk==''){
+						if($kt==''&& $bd!='' && $tk!=''){
 							$query1 = "SELECT * FROM import  WHERE (user_id like '%$tk%' or id_im like '%$tk%' or user_id like '%$tk%' or distributor_name like '%$tk%') and createdate > '$bd'";
 					 		$query2="SELECT * FROM export WHERE (user_id like '%$tk%' or id_ex like '%$tk%' or retailer_id like '%$tk%' or retailer_name like '%$tk%')and createdate > '$bd'";
 						}
